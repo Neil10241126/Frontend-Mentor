@@ -1,110 +1,63 @@
 # Frontend Mentor - Blog preview card solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+這是透過 [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS)。 Frontend Mentor 挑戰項目來提高自我編寫程式能力。
 
-## Table of contents
+## 目錄
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - Blog preview card solution](#frontend-mentor---blog-preview-card-solution)
+  - [目錄](#目錄)
+  - [概述](#概述)
+    - [挑戰項目](#挑戰項目)
+    - [截圖](#截圖)
+    - [連結](#連結)
+  - [我的流程](#我的流程)
+    - [建構於](#建構於)
+    - [我學到了什麼](#我學到了什麼)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Overview
 
-### The challenge
+## 概述
 
-Users should be able to:
+### 挑戰項目
 
-- See hover and focus states for all interactive elements on the page
+用戶端應該能夠:
 
-### Screenshot
+- 閱覽所有的卡片元素，並且進行懸停和聚焦等互動行為。
+- 閱覽具備桌面端及手機端的卡片尺寸項目。
 
-![](./screenshot.jpg)
+挑戰:
+- 卡片需按照設計規範呈現尺寸大小
+- 確保懸停畫面時，卡片陰影及標題文字保持一定平滑過度。
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+### 截圖
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+卡片樣式預覽。
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+![alt text](./public/image/image-2.png)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+卡片懸停時應具備樣式。
 
-### Links
+![alt text](./public/image/image-1.png)
+
+
+### 連結
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
 
-### Built with
+## 我的流程
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+### 建構於
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- HTML5 建立網頁結構
+- CSS3 定義網頁樣式
+- Flexbox 排版
+- 桌面版優先開發流程
 
-### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+### 我學到了什麼
 
-To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- **CSS 變數管理**：運用 CSS 變數對固定樣式及字形進行管理，提升了樣式的可維護性和一致性。 
+- **偽元素與動畫**：使用 `::before` 和 `::after` 偽元素來創建陰影效果，並通過  `:hover` 添加互動性。 
+- **響應式設計**：通過`媒體查詢 @media`調整不同裝置上的字體大小和佈局，確保在各種屏幕上的良好顯示效果。 
