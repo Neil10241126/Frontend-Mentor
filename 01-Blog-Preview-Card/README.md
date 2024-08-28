@@ -42,7 +42,7 @@
 
 ### 連結
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- GitHub Pages: [連結](https://neil10241126.github.io/Frontend-Mentor/01-Blog-Preview-Card/)
 
 
 ## 我的流程
